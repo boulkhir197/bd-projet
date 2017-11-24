@@ -55,7 +55,7 @@ CREATE TABLE Film(
 	num_ep INTEGER,
 	visible BOOLEAN DEFAULT TRUE, 
 	categorie VARCHAR(16), CONSTRAINT fk_film_categorie FOREIGN KEY (categorie) REFERENCES Categorie(label),
-	serie INTEGER, CONSTRAINT fk_film_serie FOREIGN KEY (serie) REFERENCES Serie(id_s) ON DELETE CASCADE
+	serie CHAR(6), CONSTRAINT fk_film_serie FOREIGN KEY (serie) REFERENCES Serie(id_s) ON DELETE CASCADE
 );
 
 
