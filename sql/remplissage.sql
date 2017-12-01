@@ -1,21 +1,21 @@
-INSERT INTO categorie VALUES('Action', 'Met en scène une succession de scènes spectaculaires souvent stéréotypées');
-INSERT INTO categorie VALUES('Animation', 'Utilise des images de synthèse, se destinant souvent aux enfants et aux familles');
-INSERT INTO categorie VALUES('Aventure', 'Se caractérise par la présence d un héros fictif ou non, tirant son statut du mythe qu il inspire, l action particulière qui s y déroule, ou l emploi de décors particuliers');
-INSERT INTO categorie VALUES('Biopic', 'Oeuvre de fiction centrée sur la description biographique d une personne ayant réellement existé.');
-INSERT INTO categorie VALUES('Bollywood', 'Industrie du cinéma musical indien, produit en langue hindi');
-INSERT INTO categorie VALUES('Comédie', 'A pour but d amuser les spectateurs à  travers des situations, des dialogues ou des gestes à  même de faire rire.');
-INSERT INTO categorie VALUES('Documentaire', 'Film à caractère didactique ou informatif qui vise principalement à  restituer les apparences de la réalité');
-INSERT INTO categorie VALUES('Drame', 'Traite de situations généralement non-épiques dans un contexte sérieux, sur un ton plus susceptible d inspirer la tristesse que le rire.');
-INSERT INTO categorie VALUES('Familial', 'Film à  regarder en famille, au ton léger, sans vulgarité');
-INSERT INTO categorie VALUES('Fantastique', 'Fait appel au surnaturel, à  l horreur, à  l insolite ou aux monstres. Lintrigue se fonde sur des éléments irrationnels, ou irréalistes.');
-INSERT INTO categorie VALUES('Guerre', 'Traitant le thème de la guerre, en s attardant généralement sur l aspect naval, aérien, ou terrestre des conflits.');
-INSERT INTO categorie VALUES('Horreur', 'A pour objectif est de créer un sentiment de peur, de répulsion ou d angoisse chez le spectateur.');
-INSERT INTO categorie VALUES('Musical', 'Se caractérise par son alternance entre scènes dialoguées et instants musicaux,  de la musique, des chansons ou de la danse.');
-INSERT INTO categorie VALUES('Policier', 'Met en scène le milieu du crime ou de la police, souvent par la résolution d une enquête par un policier ou un détective.');
-INSERT INTO categorie VALUES('Romance', 'Portant sur une histoire d amour ou d aventure amoureuse, mettant en avant la passion, les émotions et l engagement affectif des personnages principaux.');
-INSERT INTO categorie VALUES('Science-fiction', 'Raconte une fiction reposant sur des progrès scientifiques et techniques obtenus dans un futur plus ou moins lointain, des voyages inter-planétaire, mettant en scène des robots et des technologies futuristes.');
-INSERT INTO categorie VALUES('Thriller', 'Provoque chez le spectateur une excitation ou une appréhension et le tient en haleine jusqu au dénouement de l intrigue.');
-INSERT INTO categorie VALUES('Western', 'Se déroule généralement en Amérique du Nord lors de la conquête de l Ouest dans les dernières décennies du XIXème siècle.');
+INSERT INTO categorie VALUES('Action', 'Met en scene une succession de scenes spectaculaires souvent stereotypees');
+INSERT INTO categorie VALUES('Animation', 'Utilise des images de synthese, se destinant souvent aux enfants et aux familles');
+INSERT INTO categorie VALUES('Aventure', 'Se caracterise par la presence d un heros fictif ou non, tirant son statut du mythe qu il inspire, l action particuliere qui s y deroule, ou l emploi de decors particuliers');
+INSERT INTO categorie VALUES('Biopic', 'Oeuvre de fiction centree sur la description biographique d une personne ayant reellement existe.');
+INSERT INTO categorie VALUES('Bollywood', 'Industrie du cinema musical indien, produit en langue hindi');
+INSERT INTO categorie VALUES('Comedie', 'A pour but d amuser les spectateurs a travers des situations, des dialogues ou des gestes a meme de faire rire.');
+INSERT INTO categorie VALUES('Documentaire', 'Film a caractere didactique ou informatif qui vise principalement a restituer les apparences de la realite');
+INSERT INTO categorie VALUES('Drame', 'Traite de situations generalement non-epiques dans un contexte serieux, sur un ton plus susceptible d inspirer la tristesse que le rire.');
+INSERT INTO categorie VALUES('Familial', 'Film a regarder en famille, au ton leger, sans vulgarite');
+INSERT INTO categorie VALUES('Fantastique', 'Fait appel au surnaturel, a l horreur, a l insolite ou aux monstres. Lintrigue se fonde sur des elements irrationnels, ou irrealistes.');
+INSERT INTO categorie VALUES('Guerre', 'Traitant le theme de la guerre, en s attardant generalement sur l aspect naval, aerien, ou terrestre des conflits.');
+INSERT INTO categorie VALUES('Horreur', 'A pour objectif est de creer un sentiment de peur, de repulsion ou d angoisse chez le spectateur.');
+INSERT INTO categorie VALUES('Musical', 'Se caracterise par son alternance entre scenes dialoguees et instants musicaux,  de la musique, des chansons ou de la danse.');
+INSERT INTO categorie VALUES('Policier', 'Met en scene le milieu du crime ou de la police, souvent par la resolution d une enquete par un policier ou un detective.');
+INSERT INTO categorie VALUES('Romance', 'Portant sur une histoire d amour ou d aventure amoureuse, mettant en avant la passion, les emotions et l engagement affectif des personnages principaux.');
+INSERT INTO categorie VALUES('Science-fiction', 'Raconte une fiction reposant sur des progres scientifiques et techniques obtenus dans un futur plus ou moins lointain, des voyages inter-planetaire, mettant en scene des robots et des technologies futuristes.');
+INSERT INTO categorie VALUES('Thriller', 'Provoque chez le spectateur une excitation ou une apprehension et le tient en haleine jusqu au denouement de l intrigue.');
+INSERT INTO categorie VALUES('Western', 'Se deroule generalement en Amerique du Nord lors de la conquete de l Ouest dans les dernieres decennies du XIXeme siecle.');
 
 
 
@@ -26,7 +26,7 @@ INSERT INTO serie VALUES('S00002', 'Le Seigneur des anneaux');
 INSERT INTO serie VALUES('S00003', 'Harry Potter');
 INSERT INTO serie VALUES('S00004', 'Men in Black');
 INSERT INTO serie VALUES('S00005', 'X-men');
-INSERT INTO serie VALUES('S00006', 'Pirate des Caraïbes');
+INSERT INTO serie VALUES('S00006', 'Pirate des Caraibes');
 INSERT INTO serie VALUES('S00007', 'Hunger Games');
 INSERT INTO serie VALUES('S00008', 'Matrix');
 INSERT INTO serie VALUES('S00009', 'Taken');
@@ -106,6 +106,10 @@ INSERT INTO acteur VALUES('CAVHEN83', 'Cavill', 'Henry');
 INSERT INTO acteur VALUES('AFFBEN72', 'Affleck', 'Ben');
 INSERT INTO acteur VALUES('GOSRYA80', 'Gosling', 'Ryan');
 INSERT INTO acteur VALUES('ELBIDR72', 'Elba', 'Idris');
+<<<<<<< HEAD
+
+=======
+>>>>>>> a8fcf2530791ef7e99759cb92f26baac4b097151
 
 
 
@@ -113,50 +117,50 @@ INSERT INTO acteur VALUES('ELBIDR72', 'Elba', 'Idris');
 
 
 
-INSERT INTO film VALUES('STAR7710', 'Star Wars IV : Un nouvel espoir', '1977/10/19', 121, 'Dix-neuf ans après la formation de l Empire, Luke Skywalker est poussé dans la lutte de l Alliance Rebelle quand il rencontre Obi-Wan Kenobi, qui a vécu pendant des années en isolement sur la planète désertique de Tatooine. Obi-Wan commence l entraînement Jedi de Luke alors que Luke se joint à  lui sur une mission audacieuse pour sauver la belle chef Rebelle Princesse Leia des griffes du maléfique Empire.', 4, TRUE, 'Science-fiction', 'S00001');
+INSERT INTO film VALUES('STAR7710', 'Star Wars IV : Un nouvel espoir', '1977/10/19', 121, 'Dix-neuf ans apres la formation de l Empire, Luke Skywalker est pousse dans la lutte de l Alliance Rebelle quand il rencontre Obi-Wan Kenobi, qui a vecu pendant des annees en isolement sur la planete desertique de Tatooine. Obi-Wan commence l entrainement Jedi de Luke alors que Luke se joint a lui sur une mission audacieuse pour sauver la belle chef Rebelle Princesse Leia des griffes du malefique Empire.', 4, TRUE, 'Science-fiction', 'S00001');
 
 
-INSERT INTO film VALUES('STAR8008', 'Star Wars V : L empire contre attaque', '1980/08/20', 124, 'Dans son vaisseau, Dark Vador est convoqué par son maà®tre, l Empereur Palpatine. Ce dernier lui fait part d un grand trouble dans la Force et de son inquiétude à  propos de Luke qui serait le fils d Anakin Skywalker. L Empereur enjoint à  ce que le jeune homme ne devienne pas un Jedi.', 5, TRUE, 'Science-fiction', 'S00001');
+INSERT INTO film VALUES('STAR8008', 'Star Wars V : L empire contre attaque', '1980/08/20', 124, '', 5, TRUE, 'Science-fiction', 'S00001');
 
 
-INSERT INTO film VALUES('STAR8310', 'Star Wars VI : Le retour du Jedi', '1983/10/19', 124, 'Dans son vaisseau, Dark Vador est convoqué par son maà®tre, l Empereur Palpatine. Ce dernier lui fait part d un grand trouble dans la Force et de son inquiétude à  propos de Luke qui serait le fils d Anakin Skywalker. L Empereur enjoint à  ce que le jeune homme ne devienne pas un Jedi.', 5, TRUE, 'Science-fiction', 'S00001');
+INSERT INTO film VALUES('STAR8310', 'Star Wars VI : Le retour du Jedi', '1983/10/19', 124, '', 5, TRUE, 'Science-fiction', 'S00001');
 
 
-INSERT INTO film VALUES('STAR9910', 'Star Wars I : La menace fantà´me', '1999/10/13', 136, 'Qui-Gon Jinn et Obi-Wan Kenobi, deux chevaliers Jedi, sont dépàªchés afin de régler un conflit sur la petite planète Naboo, mais se retrouvent pris en embuscade. Les événements vont rapidement les précipiter dans un conflit de dimension galactique et les entraà®ner sur une autre planète oà¹ ils feront la connaissance dâ€™un jeune esclave, Anakin Skylwalker, qui se révèlera un puissant détenteur de la Force Jedi.', 1, TRUE, 'Science-fiction', 'S00001');
+INSERT INTO film VALUES('STAR9910', 'Star Wars I : La menace fantome', '1999/10/13', 136, 'Qui-Gon Jinn et Obi-Wan Kenobi, deux chevaliers Jedi, sont depeches afin de regler un conflit sur la petite planete Naboo, mais se retrouvent pris en embuscade. Les evenements vont rapidement les precipiter dans un conflit de dimension galactique et les entraa®ner sur une autre planete oa¹ ils feront la connaissance dâ€™un jeune esclave, Anakin Skylwalker, qui se revelera un puissant detenteur de la Force Jedi.', 1, TRUE, 'Science-fiction', 'S00001');
 
 
-INSERT INTO film VALUES('STAR0205', 'Star Wars II : L attaque des clà´nes', '2002/05/17', 142, 'Dix ans se sont écoulés depuis la première rencontre d Anakin Skywalker et de la reine Padmé Amidala. Le jeune Padawan la retrouve, devenue sénatrice, et tentant de sauver la République du chaos. Rescapée d une tentative d attentat, elle fait appel à  Obi-Wan Kenobi, qu elle charge de sa protection rapprochée. L enquàªte d Obi-Wan lui permet de découvrir l existence secrète d une armée de clones basée sur une planète isolée et la formation d un groupe de séparatistes.', 2, TRUE, 'Science-fiction', 'S00001');
+INSERT INTO film VALUES('STAR0205', 'Star Wars II : L attaque des clones', '2002/05/17', 142, 'Dix ans se sont ecoules depuis la premiere rencontre d Anakin Skywalker et de la reine Padme Amidala. Le jeune Padawan la retrouve, devenue senatrice, et tentant de sauver la Republique du chaos. Rescapee d une tentative d attentat, elle fait appel a  Obi-Wan Kenobi, qu elle charge de sa protection rapprochee. L enquaªte d Obi-Wan lui permet de decouvrir l existence secrete d une armee de clones basee sur une planete isolee et la formation d un groupe de separatistes.', 2, TRUE, 'Science-fiction', 'S00001');
 
 
-INSERT INTO film VALUES('STAR0505', 'Star Wars III : La revanche des Siths', '2005/05/18', 140, 'La Guerre des Clones fait rage. Une franche hostilité oppose désormais le Chancelier Palpatine au Conseil Jedi. Anakin Skywalker, jeune Chevalier Jedi pris entre deux feux, hésite sur la conduite à  tenir. Séduit par la promesse d un pouvoir sans précédent, tenté par le côté obscur de la Force, il prête allégeance au maléfique Darth Sidious et devient Dark Vador.', 3, TRUE, 'Science-fiction', 'S00001');
+INSERT INTO film VALUES('STAR0505', 'Star Wars III : La revanche des Siths', '2005/05/18', 140, 'La Guerre des Clones fait rage. Une franche hostilite oppose desormais le Chancelier Palpatine au Conseil Jedi. Anakin Skywalker, jeune Chevalier Jedi pris entre deux feux, hesite sur la conduite a  tenir. Seduit par la promesse d un pouvoir sans precedent, tente par le cote obscur de la Force, il prete allegeance au malefique Darth Sidious et devient Dark Vador.', 3, TRUE, 'Science-fiction', 'S00001');
 
-INSERT INTO film VALUES('STAR1512', 'Star Wars VII : Le réveil de la Force', '2015/12/16', 135, 'Plus de trente ans après la bataille dEndor, qui a vu la chute de l Empire galactique, la paix et la nouvelle république sont encore fragiles. Les nostalgiques de l ancien régime, rassemblés sous la bannière du Premier Ordre, tentent de reprendre la main sur la force. A leur tàªte, le sinistre Kylo Ren lance des attaques pirates aux confins de la galaxie. Au màªme moment, sur Jakku, une planète désertique, la jeune Rey récupère les débris métalliques des engins impériaux.', 7, TRUE, 'Science-fiction', 'S00001');
-
-
-INSERT INTO film VALUES('STAR1712', 'Star Wars VIII : Le derniers Jedi', '2017/12/13', 150, 'Les héros du Réveil de la force rejoignent les figures légendaires de la galaxie dans une aventure épique qui révèle des secrets ancestraux sur la Force et entraîne de surprenantes révélations sur le passé', 8, TRUE, 'Science-fiction', 'S00001');
+INSERT INTO film VALUES('STAR1512', 'Star Wars VII : Le reveil de la Force', '2015/12/16', 135, 'Plus de trente ans apres la bataille dEndor, qui a vu la chute de l Empire galactique, la paix et la nouvelle republique sont encore fragiles. Les nostalgiques de l ancien regime, rassembles sous la banniere du Premier Ordre, tentent de reprendre la main sur la force. A leur tete, le sinistre Kylo Ren lance des attaques pirates aux confins de la galaxie. Au meme moment, sur Jakku, une planete desertique, la jeune Rey recupere les debris metalliques des engins imperiaux.', 7, TRUE, 'Science-fiction', 'S00001');
 
 
-INSERT INTO film VALUES('LOTR0112', 'Le Seigneur des anneaux : La Communauté de lanneau', '2001/12/19', 178, 'Frodon Sacquet, un jeune hobbit de la Comté, découvre que lanneau que son oncle Bilbon lui a légué est en réalité lAnneau unique, un objet perdu il y a bien longtemps après la chute de Sauron, le Seigneur des Ténèbres, son créateur. Tant que lAnneau existe, Sauron ne peut àªtre entièrement vaincu ; le seul moyen de détruire lAnneau et de le jeter dans les flammes de la Montagne du Destin, en Mordor, à  des centaines de kilomètres de la Comté.', 1, TRUE, 'Fantastique', 'S00002');
+INSERT INTO film VALUES('STAR1712', 'Star Wars VIII : Le derniers Jedi', '2017/12/13', 150, 'Les heros du Reveil de la force rejoignent les figures legendaires de la galaxie dans une aventure epique qui revele des secrets ancestraux sur la Force et entraine de surprenantes revelations sur le passe', 8, TRUE, 'Science-fiction', 'S00001');
 
 
-INSERT INTO film VALUES('LOTR0212', 'Le Seigneur des anneaux : Les Deux Tours', '2002/12/10', 179, 'Après àªtre entrés en Emyn Muil, Frodon Sacquet et Sam Gamegie rencontrent la créature Gollum, qui essaye de leur voler l Anneau par la force. Vaincu, il promet aux Hobbits de les guider jusquau Mordor. Après avoir traversé l Emyn Muil et les marais des Morts, ils arrivent à  la Morannon, la Â« Porte Noire Â» de Mordor.', 2, TRUE, 'Fantastique', 'S00002');
-
-INSERT INTO film VALUES('LOTR0312', 'Le Seigneur des anneaux : Le Retour du roi', '2003/12/17', 201, 'Gollum guide Frodon et Sam vers le Mordor, dans lespoir de dérober lAnneau à  son nouveau porteur. Mais pour parvenir à  ses fins, il doit tromper la vigilance constante de Sam. Pendant ce temps, Aragorn, Legolas, Gimli et Gandalf retrouvent enfin la trace de Merry et Pippin devant les ruines fumantes de lIsengard. Le temps presse : tandis quAragorn tente de persuader Theoden de se porter au secours du Gondor, Gandalf et Pippin se rendent dans ce royaume dans le but de sonner lalarme. ', 2, TRUE, 'Fantastique', 'S00002');
-
-INSERT INTO film VALUES('HARRY0112', 'Harry Potter à  l école des sorciers', '2001/12/05', 152, 'Orphelin, Harry Potter est élevé par son oncle et sa tante, Vernon et Petunia Dursley, qui lobligent à  vivre dans un placard. Ces derniers lui cachent quil est en fait fils de sorciers et que sa place est à  Poudlard, la prestigieuse école de magie. Le jour de ses 11 ans, un géant nommé Hagrid lui révèle enfin la vérité. Après sàªtre équipé comme il se doit, Harry file à  Poudlard et débute très vite une nouvelle vie.', 1, TRUE, 'Fantastique', 'S00003');
+INSERT INTO film VALUES('LOTR0112', 'Le Seigneur des anneaux : La Communaute de lanneau', '2001/12/19', 178, 'Frodon Sacquet, un jeune hobbit de la Comte, decouvre que lanneau que son oncle Bilbon lui a legue est en realite lAnneau unique, un objet perdu il y a bien longtemps apres la chute de Sauron, le Seigneur des Tenebres, son createur. Tant que lAnneau existe, Sauron ne peut etre entierement vaincu ; le seul moyen de detruire lAnneau et de le jeter dans les flammes de la Montagne du Destin, en Mordor, a  des centaines de kilometres de la Comte.', 1, TRUE, 'Fantastique', 'S00002');
 
 
-INSERT INTO film VALUES('HARRY0212', 'Harry Potter et la Chambre des secrets', '2002/12/04', 161, 'Un soir, Dobby, un elfe, fait son apparition. Il annonce à  Harry que des menaces pèsent sur lécole de Poudlard. Le garà§onnet refuse bien évidemment de croire ce petit àªtre, et surtout de suivre son conseil : ne pas retourner en classe là -bas. Harry fait alors sa rentrée à  Poudlard. Dès les premiers jours, une voix malveillante le prévient que la redoutable Chambre des secrets est désormais à  nouveau ouverte. Bientà´t, les événements étranges se succèdent à  Poudlard...', 2, TRUE, 'Fantastique', 'S00003');
+INSERT INTO film VALUES('LOTR0212', 'Le Seigneur des anneaux : Les Deux Tours', '2002/12/10', 179, 'Apres etre entres en Emyn Muil, Frodon Sacquet et Sam Gamegie rencontrent la creature Gollum, qui essaye de leur voler l Anneau par la force. Vaincu, il promet aux Hobbits de les guider jusquau Mordor. Apres avoir traverse l Emyn Muil et les marais des Morts, ils arrivent a la Morannon, la Porte Noire  de Mordor.', 2, TRUE, 'Fantastique', 'S00002');
+
+INSERT INTO film VALUES('LOTR0312', 'Le Seigneur des anneaux : Le Retour du roi', '2003/12/17', 201, 'Gollum guide Frodon et Sam vers le Mordor, dans lespoir de derober lAnneau a  son nouveau porteur. Mais pour parvenir a  ses fins, il doit tromper la vigilance constante de Sam. Pendant ce temps, Aragorn, Legolas, Gimli et Gandalf retrouvent enfin la trace de Merry et Pippin devant les ruines fumantes de lIsengard. Le temps presse : tandis quAragorn tente de persuader Theoden de se porter au secours du Gondor, Gandalf et Pippin se rendent dans ce royaume dans le but de sonner lalarme. ', 2, TRUE, 'Fantastique', 'S00002');
+
+INSERT INTO film VALUES('HARRY0112', 'Harry Potter a  l ecole des sorciers', '2001/12/05', 152, 'Orphelin, Harry Potter est eleve par son oncle et sa tante, Vernon et Petunia Dursley, qui lobligent a  vivre dans un placard. Ces derniers lui cachent quil est en fait fils de sorciers et que sa place est a Poudlard, la prestigieuse ecole de magie. Le jour de ses 11 ans, un geant nomme Hagrid lui revele enfin la verite. Apres saªtre equipe comme il se doit, Harry file a Poudlard et debute tres vite une nouvelle vie.', 1, TRUE, 'Fantastique', 'S00003');
+
+
+INSERT INTO film VALUES('HARRY0212', 'Harry Potter et la Chambre des secrets', '2002/12/04', 161, 'Un soir, Dobby, un elfe, fait son apparition. Il annonce a  Harry que des menaces pesent sur lecole de Poudlard. Le garconnet refuse bien evidemment de croire ce petit etre, et surtout de suivre son conseil : ne pas retourner en classe la -bas. Harry fait alors sa rentree a Poudlard. Des les premiers jours, une voix malveillante le previent que la redoutable Chambre des secrets est desormais a nouveau ouverte. Bientot, les evenements etranges se succedent a Poudlard...', 2, TRUE, 'Fantastique', 'S00003');
 
 INSERT INTO film VALUES('HARRY0406', 'Harry Potter et le prisonnier dAzkaban', '2004/06/04', 142, '', 3, TRUE, 'Fantastique', 'S00003');
 
-INSERT INTO film VALUES('HARRY0511', 'Harry Potter et la Coupe de feu', '2005/11/23', 157, 'La quatrième année à  lécole de Poudlard est marquée par le Tournoi des trois sorciers. Les participants sont choisis par la fameuse coupe de feu qui est à  lorigine dun scandale. Elle sélectionne Harry Potter alors quil na pas là¢ge légal requis ! Accusé de tricherie et mis à  mal par une série dépreuves de plus en plus difficiles, ce dernier sera enfin confronté à  Celui dont on ne doit pas prononcer le nom, Lord V.', 4, TRUE, 'Fantastique', 'S00003');
+INSERT INTO film VALUES('HARRY0511', 'Harry Potter et la Coupe de feu', '2005/11/23', 157, 'La quatrieme annee a lecole de Poudlard est marquee par le Tournoi des trois sorciers. Les participants sont choisis par la fameuse coupe de feu qui est a lorigine dun scandale. Elle selectionne Harry Potter alors quil na pas la¢ge legal requis ! Accuse de tricherie et mis a mal par une serie depreuves de plus en plus difficiles, ce dernier sera enfin confronte a Celui dont on ne doit pas prononcer le nom, Lord V.', 4, TRUE, 'Fantastique', 'S00003');
 
 
-INSERT INTO film VALUES('HARRY0707', 'Harry Potter et lOrdre du phénix ', '2007/07/11', 138, 'Quelques semaines après la renaissance de Voldemort, Harry et ses amis Ron et Hermione font leur entrée en 5e année, de plus en plus contrôlé par le ministère qui ne croît pas au retour du mage noir et fait en sorte de discréditer Albus Dumbledore. Dolores Ombrage, sous-secrétaire du ministre et nouveau professeur de défense contre les forces du mal, instaure une forme de régime dictatorial à  Poudlard en interdisant aux élèves de s exercer aux sortilèges de défense, autant que de répandre lidée du retour de Voldemort. Hermione crée alors larmée de Dumbledore, une association délèves clandestine dans le but de se préparer aux dangers extérieurs.', 5,  TRUE, 'Fantastique', 'S00003');
+INSERT INTO film VALUES('HARRY0707', 'Harry Potter et lOrdre du phenix ', '2007/07/11', 138, 'Quelques semaines apres la renaissance de Voldemort, Harry et ses amis Ron et Hermione font leur entree en 5e annee, de plus en plus controle par le ministere qui ne croit pas au retour du mage noir et fait en sorte de discrediter Albus Dumbledore. Dolores Ombrage, sous-secretaire du ministre et nouveau professeur de defense contre les forces du mal, instaure une forme de regime dictatorial a Poudlard en interdisant aux eleves de s exercer aux sortileges de defense, autant que de repandre lidee du retour de Voldemort. Hermione cree alors larmee de Dumbledore, une association deleves clandestine dans le but de se preparer aux dangers exterieurs.', 5,  TRUE, 'Fantastique', 'S00003');
 
 
-INSERT INTO film VALUES('HARRY0907', 'Harry Potter et le Prince de sang-màªlé', '2009/07/15', 154, '', 6, TRUE, 'Fantastique', 'S00003');
+INSERT INTO film VALUES('HARRY0907', 'Harry Potter et le Prince de sang-maªle', '2009/07/15', 154, '', 6, TRUE, 'Fantastique', 'S00003');
 INSERT INTO film VALUES('HARRY1011', 'Harry Potter et les Reliques de la Mort (Partie 1)', '2010/11/24', 146, '', 7, TRUE, 'Fantastique', 'S00003');
 INSERT INTO film VALUES('HARRY1107', 'Harry Potter et les Reliques de la Mort (Partie 2)', '2011/07/13', 130, '', 8, TRUE, 'Fantastique', 'S00003');
 
@@ -175,17 +179,17 @@ INSERT INTO film VALUES('XMEN1605', 'X-Men: Apocalypse', '2016/05/18', 144, '', 
 
 
 
-INSERT INTO film VALUES('PIRA0307', 'Pirate des Caraïbes : La malédiction du Black Pearl', '2003/07/09', 143, '', 1, TRUE, 'Fantastique', 'S00006');
-INSERT INTO film VALUES('PIRA0606', 'Pirate des Caraïbes : Le secret du coffre maudit', '2006/06/24', 151, '',2, TRUE, 'Fantastique', 'S00006');
-INSERT INTO film VALUES('PIRA0705', 'Pirate des Caraïbes : Jusquau bout du monde', '2007/05/23', 169, '',3, TRUE, 'Fantastique', 'S00006');
-INSERT INTO film VALUES('PIRA1105', 'Pirate des Caraïbes : La fontaine de Jouvence', '2011/05/20', 136, '',4, TRUE, 'Fantastique', 'S00006');
-INSERT INTO film VALUES('PIRA1705', 'Pirate des Caraïbes : La Vengeance de Salazar', '2017/05/24', 129, '',5, TRUE, 'Fantastique', 'S00006');
+INSERT INTO film VALUES('PIRA0307', 'Pirate des Caraibes : La malediction du Black Pearl', '2003/07/09', 143, '', 1, TRUE, 'Fantastique', 'S00006');
+INSERT INTO film VALUES('PIRA0606', 'Pirate des Caraibes : Le secret du coffre maudit', '2006/06/24', 151, '',2, TRUE, 'Fantastique', 'S00006');
+INSERT INTO film VALUES('PIRA0705', 'Pirate des Caraibes : Jusquau bout du monde', '2007/05/23', 169, '',3, TRUE, 'Fantastique', 'S00006');
+INSERT INTO film VALUES('PIRA1105', 'Pirate des Caraibes : La fontaine de Jouvence', '2011/05/20', 136, '',4, TRUE, 'Fantastique', 'S00006');
+INSERT INTO film VALUES('PIRA1705', 'Pirate des Caraibes : La Vengeance de Salazar', '2017/05/24', 129, '',5, TRUE, 'Fantastique', 'S00006');
 
 
 INSERT INTO film VALUES('HUNG1203', 'Hunger Games', '2012/03/21', 142, '', 1, TRUE, 'Action', 'S00007');
 INSERT INTO film VALUES('HUNG1311', 'Hunger Games : L embrasement', '2013/11/27', 146, '', 2, TRUE, 'Action', 'S00007');
-INSERT INTO film VALUES('HUNG1411', 'Hunger Games : La Révolte (partie 1)', '2014/11/21', 123, '', 3, TRUE, 'Action', 'S00007');
-INSERT INTO film VALUES('HUNG1511', 'Hunger Games : La Révolte (partie 2)', '2015/11/20', 137, '', 3, TRUE, 'Action', 'S00007');
+INSERT INTO film VALUES('HUNG1411', 'Hunger Games : La Revolte (partie 1)', '2014/11/21', 123, '', 3, TRUE, 'Action', 'S00007');
+INSERT INTO film VALUES('HUNG1511', 'Hunger Games : La Revolte (partie 2)', '2015/11/20', 137, '', 3, TRUE, 'Action', 'S00007');
 
 INSERT INTO film VALUES('MATR9906', 'Matrix', '1999/06/23', 130, '', 1, TRUE, 'Science-fiction', 'S00008');
 INSERT INTO film VALUES('MATR0305', 'Matrix Reloaded', '2003/05/16', 132, '', 2, TRUE, 'Science-fiction', 'S00008');
@@ -203,21 +207,21 @@ INSERT INTO film VALUES('SAWW0711', 'Saw 4', '2007/11/21', 93, '', 4, TRUE, 'Hor
 INSERT INTO film VALUES('SAWW0811', 'Saw 5', '2008/11/05', 92, '', 5, TRUE, 'Horreur', 'S00010');
 INSERT INTO film VALUES('SAWW0911', 'Saw 6', '2009/11/04', 90, '', 6, TRUE, 'Horreur', 'S00010');
 INSERT INTO film VALUES('SAWW01011', 'Saw 7', '2010/11/10', 87, '', 7, TRUE, 'Horreur', 'S00010');
-INSERT INTO film VALUES('JIGS1711', 'Jigsaw', '2017/11/	01', 92, '', 8, TRUE, 'Horreur', 'S00010');
+INSERT INTO film VALUES('JIGS1711', 'Jigsaw', '2017/11/01', 92, '', 8, TRUE, 'Horreur', 'S00010');
 
 
 INSERT INTO film VALUES('INDI8109', 'Indiana Jones : Les Aventuriers de larche perdue', '1981/09/16', 115, '', 1, TRUE, 'Aventure', 'S00011');
 INSERT INTO film VALUES('INDI8409', 'Indiana Jones et le Temple maudit', '1984/09/12', 118, '', 2, TRUE, 'Aventure', 'S00011');
-INSERT INTO film VALUES('INDI8910', 'Indiana Jones et la Dernière Croisade', '1989/10/18', 127, '', 3, TRUE, 'Aventure', 'S00011');
-INSERT INTO film VALUES('INDI8910', 'Indiana Jones et la Dernière Croisade', '1989/10/18', 127, '', 3, TRUE, 'Aventure', 'S00011');
+INSERT INTO film VALUES('INDI8910', 'Indiana Jones et la Derniere Croisade', '1989/10/18', 127, '', 3, TRUE, 'Aventure', 'S00011');
+INSERT INTO film VALUES('INDI8910', 'Indiana Jones et la Derniere Croisade', '1989/10/18', 127, '', 3, TRUE, 'Aventure', 'S00011');
 INSERT INTO film VALUES('INDI0805', 'Indiana Jones et le Royaume du crâne de cristal', '2008/05/21', 123, '', 4, TRUE, 'Aventure', 'S00011');
 
 
 INSERT INTO film VALUES('TWIL0901', 'Twilight, chapitre I : Fascination', '2009/01/07', 122, '', 1, TRUE, 'Romance', 'S00012');
-INSERT INTO film VALUES('TWIL09114', 'Twilight, chapitre II : Tentation', '2009/11/18', 130, '', 2, TRUE, 'Romance', 'S00012');
-INSERT INTO film VALUES('TWIL1007', 'Twilight, chapitre III : Hésitation', '2010/07/07', 124, '', 3, TRUE, 'Romance', 'S00012');
-INSERT INTO film VALUES('TWIL1111', 'Twilight, chapitre IV : Révélation', '2011/11/18', 117, '', 4, TRUE, 'Romance', 'S00012');
-INSERT INTO film VALUES('TWIL1211', 'Twilight, chapitre V : Révélation partie 2', '2012/11/16', 115, '', 5, TRUE, 'Romance', 'S00012');
+INSERT INTO film VALUES('TWIL0911', 'Twilight, chapitre II : Tentation', '2009/11/18', 130, '', 2, TRUE, 'Romance', 'S00012');
+INSERT INTO film VALUES('TWIL1007', 'Twilight, chapitre III : Hesitation', '2010/07/07', 124, '', 3, TRUE, 'Romance', 'S00012');
+INSERT INTO film VALUES('TWIL1111', 'Twilight, chapitre IV : Revelation', '2011/11/18', 117, '', 4, TRUE, 'Romance', 'S00012');
+INSERT INTO film VALUES('TWIL1211', 'Twilight, chapitre V : Revelation partie 2', '2012/11/16', 115, '', 5, TRUE, 'Romance', 'S00012');
 
 
 INSERT INTO film VALUES('RESI0204', 'Resident evil', '2002/04/03', 100, '', 1, TRUE, 'Science-fiction', 'S00013');
@@ -241,13 +245,14 @@ INSERT INTO film VALUES('ROCK1601', 'Creed : lHeritage de Rocky Balboa', '2016/0
 
 INSERT INTO film VALUES('TERM8504', 'Terminator', '1985/04/24', 107, '', 1, TRUE,  'Science-fiction', 'S00016');
 INSERT INTO film VALUES('TERM9110', 'Terminator 2 : Le Jugement dernier', '1991/10/16', 137, '', 2, TRUE,  'Science-fiction', 'S00016');
-INSERT INTO film VALUES('TERM0308', 'Terminator 3 : Le Soulèvement des machines', '2003/08/06', 109, '', 3, TRUE, 'Science-fiction', 'S00016');
+INSERT INTO film VALUES('TERM0308', 'Terminator 3 : Le Soulevement des machines', '2003/08/06', 109, '', 3, TRUE, 'Science-fiction', 'S00016');
 
 
 INSERT INTO film VALUES('JAME6301', 'James Bond 007 contre Dr No', '1963/01/27', 110, '', 1, TRUE, 'Action', 'S00017');
 INSERT INTO film VALUES('JAME6407', 'Bons baisers de Russie', '1964/07/30', 115, '' , 2, TRUE, 'Action', 'S00017');
 
 
+<<<<<<< HEAD
 INSERT INTO film VALUES('TITA9701', 'Titanic', '1997/01/07', 194, '', , TRUE, 'Romance');
 INSERT INTO film VALUES('SCAR8403', 'Scarface', '1984/03/07', 170, '', , TRUE, 'Drame');
 INSERT INTO film VALUES('REVE1602', 'The Revenant', '2016/02/24', 156, '', , TRUE, 'Western');
@@ -261,6 +266,21 @@ INSERT INTO film VALUES('BLAD1710', 'Blade Runner 2049', '2017/10/04', 163, '', 
 INSERT INTO film VALUES('LAMO1710', 'La montagne entre nous', '2017/10/08', 103, '', TRUE, 'Romance');
 INSERT INTO film VALUES('DRIV1111', 'Drive', '2011/10/05', 103, '', , TRUE, 'Thriller');
 INSERT INTO film VALUES('BEAS1510', 'Beast of no nation', '2015/10/16', 136, '', , TRUE, 'Guerre');
+=======
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('TITA9701', 'Titanic', '1997/01/07', 194, '', TRUE, 'Romance');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('SCAR8403', 'Scarface', '1984/03/07', 170, '', TRUE, 'Drame');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('REVE1602', 'The Revenant', '2016/02/24', 156, '', TRUE, 'Western');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('JOHN1410', 'John Wick', '2014/10/29', 110, '', TRUE, 'Action');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('CHAR0507', 'Charlie et la Chocolaterie', '2005/07/13', 155, '',TRUE, 'Comedie');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('DEVD0207', 'Devdas', '2002/07/23', 185, '', TRUE, 'Bollywood');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('LALA1701', 'La La Land', '2017/01/25', 128, '', TRUE, 'Musical');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('FURY1410', 'Fury', '2014/10/24', 134, '', TRUE, 'Guerre');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('JUST1711', 'Justice League', '2017/11/15', 120, '',TRUE, 'Aventure');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('BLAD1710', 'Blade Runner 2049', '2017/10/04', 163, '', TRUE, 'Science-fiction');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('LAMO1710', 'La montagne entre nous', '2017/10/08', 103, '', TRUE, 'Romance');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('DRIV1111', 'Drive', '2011/10/05', 103, '', TRUE, 'Thriller');
+INSERT INTO film(id_f, titre, date_sortie, duree, resume, visible, categorie) VALUES('BEAS1510', 'Beast of no nation', '2015/10/16', 136, '', TRUE, 'Guerre');
+>>>>>>> a8fcf2530791ef7e99759cb92f26baac4b097151
 
 
 
@@ -278,7 +298,11 @@ INSERT INTO distribution VALUES('DRIV1111', 'GOSRYA80', 'Chauffeur');
 
 INSERT INTO distribution VALUES('BEAS1510', 'ELBIDR72', 'Commandant');
 
+<<<<<<< HEAD
 INSERT INTO distribution VALUES('CHAR0507', 'DEPJON63', 'Willy Wonka');
+=======
+INSERT INTO distribution VALUES('CHAR0507', 'DEPJON63', 'Willy Wnka');
+>>>>>>> a8fcf2530791ef7e99759cb92f26baac4b097151
 
 INSERT INTO distribution VALUES('TITA9701', 'DICLEO74', 'Jack Dawson');
 INSERT INTO distribution VALUES('TITA9701', 'WINKAT75', 'Rose');
@@ -328,9 +352,9 @@ INSERT INTO distribution VALUES( 'STAR8008', 'FISCAR56',  'Princesse Leia');
 INSERT INTO distribution VALUES( 'STAR8310', 'FISCAR56',  'Princesse Leia');
 INSERT INTO distribution VALUES( 'STAR1512', 'FISCAR56',  'Princesse Leia');
 INSERT INTO distribution VALUES( 'STAR1712', 'FISCAR56',  'Princesse Leia');
-INSERT INTO distribution VALUES('STAR9910', 'PORNAT81', 'Padmé');
-INSERT INTO distribution VALUES('STAR0205', 'PORNAT81', 'Padmé');
-INSERT INTO distribution VALUES('STAR0505', 'PORNAT81', 'Padmé');
+INSERT INTO distribution VALUES('STAR9910', 'PORNAT81', 'Padme');
+INSERT INTO distribution VALUES('STAR0205', 'PORNAT81', 'Padme');
+INSERT INTO distribution VALUES('STAR0505', 'PORNAT81', 'Padme');
 INSERT INTO distribution VALUES('STAR1512', 'DRIADA83', 'Kylo Ren');
 INSERT INTO distribution VALUES('STAR1712', 'DRIADA83', 'Kylo Ren');
 
