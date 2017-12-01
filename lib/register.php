@@ -53,6 +53,10 @@ function init(){
     }
 }
 
+<<<<<<< HEAD
+=======
+header("Location: ../php/inscription.php");
+>>>>>>> d088c26135a215aa419d2f97c784286ffd8773db
 init();
 header("Location: ../php/inscription.php");
 exit;

@@ -122,6 +122,7 @@ INSERT INTO film VALUES('STAR8008', 'Star Wars V : L empire contre attaque', '19
 INSERT INTO film VALUES('STAR8310', 'Star Wars VI : Le retour du Jedi', '1983/10/19', 124, '', 5, TRUE, 'Science-fiction', 'S00001');
 
 
+<<<<<<< HEAD
 INSERT INTO film VALUES('STAR9910', 'Star Wars I : La menace fantome', '1999/10/13', 136, 'Qui-Gon Jinn et Obi-Wan Kenobi, deux chevaliers Jedi, sont depeches afin de regler un conflit sur la petite planete Naboo, mais se retrouvent pris en embuscade. Les evenements vont rapidement les precipiter dans un conflit de dimension galactique et les entraa®ner sur une autre planete oa¹ ils feront la connaissance dâ€™un jeune esclave, Anakin Skylwalker, qui se revelera un puissant detenteur de la Force Jedi.', 1, TRUE, 'Science-fiction', 'S00001');
 
 
@@ -129,6 +130,15 @@ INSERT INTO film VALUES('STAR0205', 'Star Wars II : L attaque des clones', '2002
 
 
 INSERT INTO film VALUES('STAR0505', 'Star Wars III : La revanche des Siths', '2005/05/18', 140, 'La Guerre des Clones fait rage. Une franche hostilite oppose desormais le Chancelier Palpatine au Conseil Jedi. Anakin Skywalker, jeune Chevalier Jedi pris entre deux feux, hesite sur la conduite a  tenir. Seduit par la promesse d un pouvoir sans precedent, tente par le cote obscur de la Force, il prete allegeance au malefique Darth Sidious et devient Dark Vador.', 3, TRUE, 'Science-fiction', 'S00001');
+=======
+INSERT INTO film VALUES('STAR9910', 'Star Wars I : La menace fantome', '1999/10/13', 136, 'Qui-Gon Jinn et Obi-Wan Kenobi, deux chevaliers Jedi, sont depeches afin de regler un conflit sur la petite planete Naboo, mais se retrouvent pris en embuscade. Les evenements vont rapidement les precipiter dans un conflit de dimension galactique et les entraaÂ®ner sur une autre planete oaÂ¹ ils feront la connaissance dÃ¢Â€Â™un jeune esclave, Anakin Skylwalker, qui se revelera un puissant detenteur de la Force Jedi.', 1, TRUE, 'Science-fiction', 'S00001');
+
+
+INSERT INTO film VALUES('STAR0205', 'Star Wars II : L attaque des clones', '2002/05/17', 142, 'Dix ans se sont ecoules depuis la premiere rencontre d Anakin Skywalker et de la reine Padme Amidala. Le jeune Padawan la retrouve, devenue senatrice, et tentant de sauver la Republique du chaos. Rescapee d une tentative d attentat, elle fait appel a  Obi-Wan Kenobi, qu elle charge de sa protection rapprochee. L enquaÂªte d Obi-Wan lui permet de decouvrir l existence secrete d une armee de clones basee sur une planete isolee et la formation d un groupe de separatistes.', 2, TRUE, 'Science-fiction', 'S00001');
+
+
+INSERT INTO film VALUES('STAR0505', 'Star Wars III : La revanche des Siths', '2005/05/18', 140, 'La Guerre des Clones fait rage. Une franche hostilite oppose desormais le Chancelier Palpatine au Conseil Jedi. Anakin Skywalker, jeune Chevalier Jedi pris entre deux feux, hesite sur la conduite a  tenir. Seduit par la promesse d un pouvoir sans precedent, tente par le cote obscur de la Force, il prete allegeance au malefique Darth Sidious et devient Dark Vador.', 3, TRUE, 'Science-fiction', 'S00001');
+>>>>>>> d088c26135a215aa419d2f97c784286ffd8773db
 
 INSERT INTO film VALUES('STAR1512', 'Star Wars VII : Le reveil de la Force', '2015/12/16', 135, 'Plus de trente ans apres la bataille dEndor, qui a vu la chute de l Empire galactique, la paix et la nouvelle republique sont encore fragiles. Les nostalgiques de l ancien regime, rassembles sous la banniere du Premier Ordre, tentent de reprendre la main sur la force. A leur tete, le sinistre Kylo Ren lance des attaques pirates aux confins de la galaxie. Au meme moment, sur Jakku, une planete desertique, la jeune Rey recupere les debris metalliques des engins imperiaux.', 7, TRUE, 'Science-fiction', 'S00001');
 
@@ -136,11 +146,16 @@ INSERT INTO film VALUES('STAR1512', 'Star Wars VII : Le reveil de la Force', '20
 INSERT INTO film VALUES('STAR1712', 'Star Wars VIII : Le derniers Jedi', '2017/12/13', 150, 'Les heros du Reveil de la force rejoignent les figures legendaires de la galaxie dans une aventure epique qui revele des secrets ancestraux sur la Force et entraine de surprenantes revelations sur le passe', 8, TRUE, 'Science-fiction', 'S00001');
 
 
+<<<<<<< HEAD
 INSERT INTO film VALUES('LOTR0112', 'Le Seigneur des anneaux : La Communaute de lanneau', '2001/12/19', 178, 'Frodon Sacquet, un jeune hobbit de la Comte, decouvre que lanneau que son oncle Bilbon lui a legue est en realite lAnneau unique, un objet perdu il y a bien longtemps apres la chute de Sauron, le Seigneur des Tenebres, son createur. Tant que lAnneau existe, Sauron ne peut etre entierement vaincu ; le seul moyen de detruire lAnneau et de le jeter dans les flammes de la Montagne du Destin, en Mordor, a  des centaines de kilometres de la Comte.', 1, TRUE, 'Fantastique', 'S00002');
+=======
+INSERT INTO film VALUES('LOTR0112', 'Le Seigneur des anneaux : La Communaute de lanneau', '2001/12/19', 178, 'Frodon Sacquet, un jeune hobbit de la Comte, decouvre que lanneau que son oncle Bilbon lui a legue est en realite lAnneau unique, un objet perdu il y a bien longtemps apres la chute de Sauron, le Seigneur des Tenebres, son createur. Tant que lAnneau existe, Sauron ne peut etre entierement vaincu ; le seul moyen de detruire lAnneau et de le jeter dans les flammes de la Montagne du Destin, en Mordor, a  des centaines de kilometres de la Comte.', 1, TRUE, 'Fantastique', 'S00002');
+>>>>>>> d088c26135a215aa419d2f97c784286ffd8773db
 
 
 INSERT INTO film VALUES('LOTR0212', 'Le Seigneur des anneaux : Les Deux Tours', '2002/12/10', 179, 'Apres etre entres en Emyn Muil, Frodon Sacquet et Sam Gamegie rencontrent la creature Gollum, qui essaye de leur voler l Anneau par la force. Vaincu, il promet aux Hobbits de les guider jusquau Mordor. Apres avoir traverse l Emyn Muil et les marais des Morts, ils arrivent a la Morannon, la Porte Noire  de Mordor.', 2, TRUE, 'Fantastique', 'S00002');
 
+<<<<<<< HEAD
 INSERT INTO film VALUES('LOTR0312', 'Le Seigneur des anneaux : Le Retour du roi', '2003/12/17', 201, 'Gollum guide Frodon et Sam vers le Mordor, dans lespoir de derober lAnneau a  son nouveau porteur. Mais pour parvenir a  ses fins, il doit tromper la vigilance constante de Sam. Pendant ce temps, Aragorn, Legolas, Gimli et Gandalf retrouvent enfin la trace de Merry et Pippin devant les ruines fumantes de lIsengard. Le temps presse : tandis quAragorn tente de persuader Theoden de se porter au secours du Gondor, Gandalf et Pippin se rendent dans ce royaume dans le but de sonner lalarme. ', 2, TRUE, 'Fantastique', 'S00002');
 
 INSERT INTO film VALUES('HARRY0112', 'Harry Potter a  l ecole des sorciers', '2001/12/05', 152, 'Orphelin, Harry Potter est eleve par son oncle et sa tante, Vernon et Petunia Dursley, qui lobligent a  vivre dans un placard. Ces derniers lui cachent quil est en fait fils de sorciers et que sa place est a Poudlard, la prestigieuse ecole de magie. Le jour de ses 11 ans, un geant nomme Hagrid lui revele enfin la verite. Apres saªtre equipe comme il se doit, Harry file a Poudlard et debute tres vite une nouvelle vie.', 1, TRUE, 'Fantastique', 'S00003');
@@ -151,12 +166,28 @@ INSERT INTO film VALUES('HARRY0212', 'Harry Potter et la Chambre des secrets', '
 INSERT INTO film VALUES('HARRY0406', 'Harry Potter et le prisonnier dAzkaban', '2004/06/04', 142, '', 3, TRUE, 'Fantastique', 'S00003');
 
 INSERT INTO film VALUES('HARRY0511', 'Harry Potter et la Coupe de feu', '2005/11/23', 157, 'La quatrieme annee a lecole de Poudlard est marquee par le Tournoi des trois sorciers. Les participants sont choisis par la fameuse coupe de feu qui est a lorigine dun scandale. Elle selectionne Harry Potter alors quil na pas la¢ge legal requis ! Accuse de tricherie et mis a mal par une serie depreuves de plus en plus difficiles, ce dernier sera enfin confronte a Celui dont on ne doit pas prononcer le nom, Lord V.', 4, TRUE, 'Fantastique', 'S00003');
+=======
+INSERT INTO film VALUES('LOTR0312', 'Le Seigneur des anneaux : Le Retour du roi', '2003/12/17', 201, 'Gollum guide Frodon et Sam vers le Mordor, dans lespoir de derober lAnneau a  son nouveau porteur. Mais pour parvenir a  ses fins, il doit tromper la vigilance constante de Sam. Pendant ce temps, Aragorn, Legolas, Gimli et Gandalf retrouvent enfin la trace de Merry et Pippin devant les ruines fumantes de lIsengard. Le temps presse : tandis quAragorn tente de persuader Theoden de se porter au secours du Gondor, Gandalf et Pippin se rendent dans ce royaume dans le but de sonner lalarme. ', 2, TRUE, 'Fantastique', 'S00002');
+
+INSERT INTO film VALUES('HARRY0112', 'Harry Potter a  l ecole des sorciers', '2001/12/05', 152, 'Orphelin, Harry Potter est eleve par son oncle et sa tante, Vernon et Petunia Dursley, qui lobligent a  vivre dans un placard. Ces derniers lui cachent quil est en fait fils de sorciers et que sa place est a Poudlard, la prestigieuse ecole de magie. Le jour de ses 11 ans, un geant nomme Hagrid lui revele enfin la verite. Apres saÂªtre equipe comme il se doit, Harry file a Poudlard et debute tres vite une nouvelle vie.', 1, TRUE, 'Fantastique', 'S00003');
+
+
+INSERT INTO film VALUES('HARRY0212', 'Harry Potter et la Chambre des secrets', '2002/12/04', 161, 'Un soir, Dobby, un elfe, fait son apparition. Il annonce a  Harry que des menaces pesent sur lecole de Poudlard. Le garconnet refuse bien evidemment de croire ce petit etre, et surtout de suivre son conseil : ne pas retourner en classe la -bas. Harry fait alors sa rentree a Poudlard. Des les premiers jours, une voix malveillante le previent que la redoutable Chambre des secrets est desormais a nouveau ouverte. Bientot, les evenements etranges se succedent a Poudlard...', 2, TRUE, 'Fantastique', 'S00003');
+
+INSERT INTO film VALUES('HARRY0406', 'Harry Potter et le prisonnier dAzkaban', '2004/06/04', 142, '', 3, TRUE, 'Fantastique', 'S00003');
+
+INSERT INTO film VALUES('HARRY0511', 'Harry Potter et la Coupe de feu', '2005/11/23', 157, 'La quatrieme annee a lecole de Poudlard est marquee par le Tournoi des trois sorciers. Les participants sont choisis par la fameuse coupe de feu qui est a lorigine dun scandale. Elle selectionne Harry Potter alors quil na pas laÂ¢ge legal requis ! Accuse de tricherie et mis a mal par une serie depreuves de plus en plus difficiles, ce dernier sera enfin confronte a Celui dont on ne doit pas prononcer le nom, Lord V.', 4, TRUE, 'Fantastique', 'S00003');
+>>>>>>> d088c26135a215aa419d2f97c784286ffd8773db
 
 
 INSERT INTO film VALUES('HARRY0707', 'Harry Potter et lOrdre du phenix ', '2007/07/11', 138, 'Quelques semaines apres la renaissance de Voldemort, Harry et ses amis Ron et Hermione font leur entree en 5e annee, de plus en plus controle par le ministere qui ne croit pas au retour du mage noir et fait en sorte de discrediter Albus Dumbledore. Dolores Ombrage, sous-secretaire du ministre et nouveau professeur de defense contre les forces du mal, instaure une forme de regime dictatorial a Poudlard en interdisant aux eleves de s exercer aux sortileges de defense, autant que de repandre lidee du retour de Voldemort. Hermione cree alors larmee de Dumbledore, une association deleves clandestine dans le but de se preparer aux dangers exterieurs.', 5,  TRUE, 'Fantastique', 'S00003');
 
 
+<<<<<<< HEAD
 INSERT INTO film VALUES('HARRY0907', 'Harry Potter et le Prince de sang-maªle', '2009/07/15', 154, '', 6, TRUE, 'Fantastique', 'S00003');
+=======
+INSERT INTO film VALUES('HARRY0907', 'Harry Potter et le Prince de sang-maÂªle', '2009/07/15', 154, '', 6, TRUE, 'Fantastique', 'S00003');
+>>>>>>> d088c26135a215aa419d2f97c784286ffd8773db
 INSERT INTO film VALUES('HARRY1011', 'Harry Potter et les Reliques de la Mort (Partie 1)', '2010/11/24', 146, '', 7, TRUE, 'Fantastique', 'S00003');
 INSERT INTO film VALUES('HARRY1107', 'Harry Potter et les Reliques de la Mort (Partie 2)', '2011/07/13', 130, '', 8, TRUE, 'Fantastique', 'S00003');
 
@@ -210,7 +241,11 @@ INSERT INTO film VALUES('INDI8109', 'Indiana Jones : Les Aventuriers de larche p
 INSERT INTO film VALUES('INDI8409', 'Indiana Jones et le Temple maudit', '1984/09/12', 118, '', 2, TRUE, 'Aventure', 'S00011');
 INSERT INTO film VALUES('INDI8910', 'Indiana Jones et la Derniere Croisade', '1989/10/18', 127, '', 3, TRUE, 'Aventure', 'S00011');
 INSERT INTO film VALUES('INDI8910', 'Indiana Jones et la Derniere Croisade', '1989/10/18', 127, '', 3, TRUE, 'Aventure', 'S00011');
+<<<<<<< HEAD
 INSERT INTO film VALUES('INDI0805', 'Indiana Jones et le Royaume du crâne de cristal', '2008/05/21', 123, '', 4, TRUE, 'Aventure', 'S00011');
+=======
+INSERT INTO film VALUES('INDI0805', 'Indiana Jones et le Royaume du crÃ¢ne de cristal', '2008/05/21', 123, '', 4, TRUE, 'Aventure', 'S00011');
+>>>>>>> d088c26135a215aa419d2f97c784286ffd8773db
 
 
 INSERT INTO film VALUES('TWIL0901', 'Twilight, chapitre I : Fascination', '2009/01/07', 122, '', 1, TRUE, 'Romance', 'S00012');
