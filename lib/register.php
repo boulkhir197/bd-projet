@@ -52,7 +52,7 @@ function init(){
     }
 }
 
-header("Location: inscription.php");
+header("Location: ../php/inscription.php");
 init();
 exit;
 
