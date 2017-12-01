@@ -3,6 +3,8 @@
 require_once('baseConnection.php');
 require_once('util.php');
 
+extract($_POST) ;
+
 function addToDatabase(){
     extract($_POST) ;
     $requeteSQL = "INSERT INTO Utilisateur(login,adresse_mail,nom,prenom,mot2passe) VALUES($login,$mail,$nom,$prenom,".crypt($password, randomSalt()).")";
@@ -18,10 +20,9 @@ function condition(){
 }
 
 
-function notActif($pram){
+function notActif($param){
     echo "<script type=\"javascript/text\">
-            <p>alert('Ce mail <b>$param</b> est déjà utilisé pour un compte désactivé. Voulez vous vous réabonner ?');</p>
-            </script>";
+            if(confirm('Ce mail ".$param." est un compte désactivé. Voulez vous vous réabonner ?')){window.location.replace(\"reabonnement.php\");}</script>";
 }
 
 
@@ -50,5 +51,9 @@ function init(){
 
     }
 }
+
+header("Location: inscription.php");
+init();
+exit;
 
 ?>
