@@ -8,7 +8,7 @@
 
 <body>
 	
-	<form action="#" method=POST>
+	<form action="registre.php" method=POST>
 		<h1> Inscription </h1>
     	<table>
 		    <tr>
