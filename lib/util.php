@@ -18,7 +18,7 @@ function randomSalt(){
 
 function loginAlreadyExits($login){
     $base = Database::getConnection();
-    $requeteSQL = "SELECT login,actif FROM Utilisateur WHERE adresse_mail='$login'";
+    $requeteSQL = "SELECT login,actif FROM Utilisateur WHERE login='$login'";
     $resultat=pg_exec($base, $requeteSQL) 
           or die("Erreur SQL !<br />$requeteSQL<br />".pg_last_error()) ;
     $nblignes=pg_numrows($resultat) ;
