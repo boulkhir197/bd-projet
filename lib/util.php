@@ -23,12 +23,7 @@ function loginAlreadyExits($login){
     $nblignes=pg_numrows($resultat) ;
     if ($nblignes==0)
 	    return 0;
-	else {
-		if (pg_result($resultat,0,"actif"))
-			return 1;
-		else
-			return -1;
-	}
+	else return -1;
 }
 
 

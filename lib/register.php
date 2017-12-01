@@ -18,8 +18,10 @@ function condition(){
 }
 
 
-function notActif(){
-	# code...
+function notActif($pram){
+    echo "<script type=\"javascript/text\">
+            <p>alert('Ce mail <b>$param</b> est déjà utilisé pour un compte désactivé. Voulez vous vous réabonner ?');</p>
+            </script>";
 }
 
 
@@ -32,15 +34,12 @@ function init(){
                     addToDatabase();
                     break;
                 case 1:
-                    notActif();
+                    notActif($_POST['mail']);
                     break;
                 case -1:
                     echo "Ce mail <b>".$_POST['mail']."</b> existe déjà , choisissez un autre adresse mail ou essayez de vous connecter si vous êtes déjà inscrit";
                     break;
                 }
-        	case 1:
-        		notActif();
-        		break;
             case -1:
                 echo "Ce nom d'utilisateur <b>".$_POST['login']."</b> existe déjà , choisissez un autre nom d'utilisateur de vous connecter si vous êtes déjà inscrit";
                 break;
