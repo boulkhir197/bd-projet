@@ -1,5 +1,5 @@
 <?php
-require_once('baseConnection.php');
+require_once('Database.class.php');
 
 function authentifierLogin($login, $password){
     //$requeteSQL="SELECT login, FROM film ORDER BY nfilm DESC" ;

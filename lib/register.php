@@ -1,12 +1,13 @@
 <?php
 
-require_once('baseConnection.php');
+require_once('Database.class.php');
 require_once('util.php');
 
-extract($_POST) ;
+
 
 function addToDatabase(){
     extract($_POST) ;
+    $base = Database::getConnection();
     $requeteSQL = "INSERT INTO Utilisateur(login,adresse_mail,nom,prenom,mot2passe) VALUES($login,$mail,$nom,$prenom,".crypt($password, randomSalt()).")";
     pg_exec($base, $requeteSQL) 
           or die("Erreur SQL !<br />$requeteSQL<br />".pg_last_error()) ;
@@ -52,8 +53,8 @@ function init(){
     }
 }
 
-header("Location: inscription.php");
 init();
+header("Location: ../php/inscription.php");
 exit;
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 
-require_once('baseConnection.php');
+require_once('Database.class.php');
 
 function random64String($n){
     static $charset =  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789./";
@@ -17,6 +17,7 @@ function randomSalt(){
 
 
 function loginAlreadyExits($login){
+    $base = Database::getConnection();
     $requeteSQL = "SELECT login,actif FROM Utilisateur WHERE adresse_mail='$login'";
     $resultat=pg_exec($base, $requeteSQL) 
           or die("Erreur SQL !<br />$requeteSQL<br />".pg_last_error()) ;
@@ -28,6 +29,7 @@ function loginAlreadyExits($login){
 
 
 function mailAlreadyExits($mail){
+    $base = Database::getConnection();
     $requeteSQL = "SELECT adresse_mail,actif FROM Utilisateur WHERE adresse_mail='$mail'";
     $resultat=pg_exec($base, $requeteSQL) 
           or die("Erreur SQL !<br />$requeteSQL<br />".pg_last_error()) ;
