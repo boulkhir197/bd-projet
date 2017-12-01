@@ -48,7 +48,7 @@ CREATE TABLE Format(
 
 CREATE TABLE Film(
 	id_f CHAR(8), CONSTRAINT pk_film PRIMARY KEY(id_f),
-	titre VARCHAR(30) NOT NULL,
+	titre VARCHAR(50) NOT NULL,
 	date_sortie DATE,
 	duree INTEGER CHECK (duree > 0),
 	resume VARCHAR(500),
