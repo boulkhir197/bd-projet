@@ -6,8 +6,8 @@ session_start();
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title> Up Heaven - Le paradis du téléchargement </title>
-    <style type="text/css" url="../style/index.css"></style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style type="text/css" url="../style/index.css"></style>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -35,15 +35,29 @@ session_start();
     </div>
     </nav>
     
+
     <div class="container-fluid text-center">    
     <div class="row content">
-        <div class="col-sm-2 sidenav">
+ 
+        <div class="col-sm-3 sidenav">
+            <div class="form-group">
+            <div class="input-group">
+                   <form action="../lib/recherche.php" method = POST>
+                   <input type="text" placeholder="Entrez un film, un acteur, une catégorie ..." name="motcle" class="form-control">
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-inverse right-rounded">Chercher</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
         <p><a href="#">Tous les films disponibles</a></p>
         <p><a href="#">Link</a></p>
         <p><a href="#">Link</a></p>
         </div>
-        <div class="col-sm-10 text-left"> 
-        <h1> Films à l'affiche </h1>
+        <div class="col-sm-9 text-left"> 
+       
+        <h1 id="titre"> Films à l'affiche </h1>
+        
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
 		    <!-- Indicators -->
 		    <ol class="carousel-indicators">
@@ -55,15 +69,15 @@ session_start();
 		    <!-- Wrapper for slides -->
 		    <div class="carousel-inner">
 		      <div class="item active">
-		        <img src="../images/bladerunner.jpeg" alt="Blade Runner 2049" style="width:100%;">
+		        <img src="../images/bladerunner.jpeg" alt="Blade Runner 2049">
 		      </div>
 
 		      <div class="item">
-		        <img src="../images/Justice_League.jpg" alt="Justice League" style="width:100%;">
+		        <img src="../images/Justice_League.jpg" alt="Justice League">
 		      </div>
 		    
 		      <div class="item">
-		        <img src="../images/lamontahneentrenous.jpg" alt="La montagne entre nous" style="width:100%;">
+		        <img src="../images/lamontahneentrenous.jpg" alt="La montagne entre nous">
 		      </div>
 		    </div>
 
