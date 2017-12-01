@@ -101,6 +101,12 @@ INSERT INTO acteur VALUES('DENROB43', 'De Niro', 'Robert');
 INSERT INTO acteur VALUES('STRMER49', 'Streep', 'Meryl');
 INSERT INTO acteur VALUES('WINKAT75', 'Winslet', 'Kate');
 INSERT INTO acteur VALUES('ROBJUL67', 'Roberts', 'Julia');
+INSERT INTO acteur VALUES('GADGAL85', 'Gadot', 'Gal');
+INSERT INTO acteur VALUES('CAVHEN83', 'Cavill', 'Henry');
+INSERT INTO acteur VALUES('AFFBEN72', 'Affleck', 'Ben');
+INSERT INTO acteur VALUES('GOSRYA80', 'Gosling', 'Ryan');
+INSERT INTO acteur VALUES('ELBIDR72', 'Elba', 'Idris');
+
 
 
 
@@ -250,9 +256,43 @@ INSERT INTO film VALUES('CHAR0507', 'Charlie et la Chocolaterie', '2005/07/13', 
 INSERT INTO film VALUES('DEVD0207', 'Devdas', '2002/07/23', 185, '', , TRUE, 'Bollywood');
 INSERT INTO film VALUES('LALA1701', 'La La Land', '2017/01/25', 128, '', ,TRUE, 'Musical');
 INSERT INTO film VALUES('FURY1410', 'Fury', '2014/10/24', 134, '', , TRUE, 'Guerre');
+INSERT INTO film VALUES('JUST1711', 'Justice League', '2017/11/15', 120, '', , TRUE, 'Aventure');
+INSERT INTO film VALUES('BLAD1710', 'Blade Runner 2049', '2017/10/04', 163, '', , TRUE, 'Science-fiction');
+INSERT INTO film VALUES('LAMO1710', 'La montagne entre nous', '2017/10/08', 103, '', TRUE, 'Romance');
+INSERT INTO film VALUES('DRIV1111', 'Drive', '2011/10/05', 103, '', , TRUE, 'Thriller');
+INSERT INTO film VALUES('BEAS1510', 'Beast of no nation', '2015/10/16', 136, '', , TRUE, 'Guerre');
 
 
 
+INSERT INTO distribution VALUES('REVE1602', 'DICLEO74', 'Hugh Glass');
+
+INSERT INTO distribution VALUES('JOHN1410', 'REEKEA64', 'John Wick');
+
+INSERT INTO distribution VALUES('FURY1410', 'PITBRA63', 'Wardaddy');
+
+INSERT INTO distribution VALUES('SCAR8403', 'PACALL40', 'Tony Montana');
+
+INSERT INTO distribution VALUES('LALA1701', 'GOSRYA80', 'Sebastian');
+
+INSERT INTO distribution VALUES('DRIV1111', 'GOSRYA80', 'Chauffeur');
+
+INSERT INTO distribution VALUES('BEAS1510', 'ELBIDR72', 'Commandant');
+
+INSERT INTO distribution VALUES('CHAR0507', 'DEPJON63', 'Willy Wonka');
+
+INSERT INTO distribution VALUES('TITA9701', 'DICLEO74', 'Jack Dawson');
+INSERT INTO distribution VALUES('TITA9701', 'WINKAT75', 'Rose');
+
+INSERT INTO distribution VALUES('BLAD1710', 'GOSRYA80', 'Officer K');
+INSERT INTO distribution VALUES('BLAD1710', 'FORHAR42', 'Rick Deckard');
+
+
+INSERT INTO distribution VALUES('LAMO1710', 'WINKAT75', 'Alex Martin');
+INSERT INTO distribution VALUES('LAMO1710', 'ELBIDR72', 'Dr. Ben Bass');
+
+INSERT INTO distribution VALUES('JUST1711', 'GADGAL85', 'Wonder Woman');
+INSERT INTO distribution VALUES('JUST1711', 'CAVHEN83', 'Superman');
+INSERT INTO distribution VALUES('JUST1711', 'AFFBEN72', 'Batman');
 
 
 INSERT INTO distribution VALUES('HARRY0112','RADDAN89', 'Harry Potter');
