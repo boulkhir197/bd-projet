@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title> Up Heaven - connexion </title>
-    <!--<link type="text/css" rel="stylesheet" media="all" title="CSS" href="../style/inscription.css" />-->
+    <!--<link type="text/css" rel="stylesheet" media="all" title="CSS" href="../style/connexion.css" />-->
 </head>
 
 <body>
