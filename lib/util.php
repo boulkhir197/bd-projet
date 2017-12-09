@@ -31,22 +31,18 @@ function mailAlreadyExits($mail){
 }
 
 function afficheTabOption($tab,$info=FALSE){
+    echo "<select onclick='this.form.submit()' name='choice'  size=".sizeof($tab)." >";
     if (!$info) {
-        echo "<select name='choice'  size=".sizeof($tab)." >";
         foreach ($tab as $key => $value) {
             echo "<option value='$key'>$key</option>";
         }
-        echo "</selcet>";
-        echo "<input type='submit'>";
     }
     else{
-        echo "<select name='choice'  size=".sizeof($tab)." >";
         foreach ($tab as $key => $value) {
             echo "<option value='$key'>$value</option>";
         }
-        echo "</selcet>";
-        echo "<input type='submit'>";
     }
+    echo "</selcet>";
     
 }
 
