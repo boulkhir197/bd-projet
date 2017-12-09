@@ -36,7 +36,7 @@ function afficheTabOption($tab,$info=FALSE){
         foreach ($tab as $key => $value) {
             echo "<option value='$key'>$key</option>";
         }
-        echo "</selcet>"
+        echo "</selcet>";
         echo "<input type='submit'>";
     }
     else{
@@ -44,7 +44,7 @@ function afficheTabOption($tab,$info=FALSE){
         foreach ($tab as $key => $value) {
             echo "<option value='$key'>$value</option>";
         }
-        echo "</selcet>"
+        echo "</selcet>";
         echo "<input type='submit'>";
     }
     
