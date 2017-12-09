@@ -1,5 +1,6 @@
 <?php
 session_start();
+require("../lib/categorie.php");
 ?>
 <!DOCTYPE html>
 <html>
