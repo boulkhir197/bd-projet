@@ -31,7 +31,7 @@ function mailAlreadyExits($mail){
 }
 
 function afficheTabOption($tab,$info=FALSE){
-    echo "<select onclick='this.form.submit()' name='choice'  size=".sizeof($tab)." >";
+    echo "<select onclick='this.form.submit()' style='width:100%;border:none;text-align:center;' name='choice'  size=".sizeof($tab)." >";
     if (!$info) {
         foreach ($tab as $key => $value) {
             echo "<option value='$key'>$key</option>";

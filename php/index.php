@@ -53,8 +53,11 @@ session_start();
                 </div>
             </div>
         <p><a href="#">Tous les films disponibles</a></p>
-        <p><a href="#">Link</a></p>
-        <p><a href="#">Link</a></p>
+        <form action="films.php" method=POST>
+            <?php
+            afficheTabOption($categorie);
+            ?>
+        </form>
         </div>
         <div class="col-sm-9 text-left"> 
        
