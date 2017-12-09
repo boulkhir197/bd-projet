@@ -8,7 +8,7 @@ require_once('util.php');
 function addToDatabase(){
     extract($_POST) ;
     $base = Database::getConnection();
-    $requeteSQL = "INSERT INTO Utilisateur(login,adresse_mail,nom,prenom,mot2passe) VALUES('$login','$mail','$nom','$prenom','".crypt($password, randomSalt())."')";
+    $requeteSQL = "INSERT INTO Utilisateur(login,adresse_mail,nom,prenom,mot2passe) VALUES('$login','$mail','$nom','$prenom','$password')";
     pg_exec($base, $requeteSQL) 
           or die("Erreur SQL !<br />$requeteSQL<br />".pg_last_error()) ;
 

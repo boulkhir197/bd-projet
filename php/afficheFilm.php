@@ -1,6 +1,5 @@
 <?php
 session_start();
-require("../lib/categorie.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -53,10 +52,24 @@ require("../lib/categorie.php");
             </div>
         <p><a href="affiche_films.php">Tous les films disponibles</a></p>
         
-        <form action="films.php" method=POST>
-        	<?php
-        	afficheTabOption($categorie);
-        	?>
+        <form action="categorie.php" method=GET>
+        
+                    <?php 
+                        extract($_GET);
+                        $base = pg_connect("host=houplin user= sbenni password = postgres dbname = upheaven") or die('Erreur de connection ! <br/>'. pg_last_error());
+                        
+                        $query = "SELECT label FROM Categorie ORDER BY label";
+                        $resquery = pg_query($base, $query); 
+                        echo("<table>");
+                        while ($line = pg_fetch_assoc($resquery)) {
+                             echo '<tr> <a href="categorie.php?label=', $line['label'],'"/>';
+                             echo "</tr>";
+                             echo "</td>";
+                             echo $line['label'] ;
+                             echo "<br/><br/>";
+                        }
+                        echo "</table>";
+                    ?>
         </form>
         </div>
         
@@ -68,7 +81,7 @@ require("../lib/categorie.php");
             
             <form action="" method=GET>
         
-                    <?php /* 
+                    <?php 
                         extract($_GET);
                         $base = pg_connect("host=houplin user= sbenni password = postgres dbname = upheaven") or die('Erreur de connection ! <br/>'. pg_last_error());
                         
@@ -83,7 +96,7 @@ require("../lib/categorie.php");
                              echo "<br/>";
                              
                         }
-                        echo("</table>");*/
+                        echo("</table>");
                     ?>
             </form>
             <footer class="container-fluid text-center">

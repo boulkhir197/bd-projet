@@ -4,9 +4,7 @@ require('User.class.php');
 
 
 function correctPassword($input, $password){
-    $salt = substr($password,0,29);
-    $pass = crypt($input,$salt);
-    return $pass == $password;
+    return $input == $password;
 }
 
 function controleAuthentification() {

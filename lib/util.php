@@ -2,20 +2,6 @@
 
 require_once('Database.class.php');
 
-function random64String($n){
-    static $charset =  "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789./";
-    $res ="";
-    for ($i=0; $i<$n; $i++){
-        $res .= $charset{rand(0,strlen($charset)-1)};
-    }
-    return $res;
-}
-
-function randomSalt(){
-    return '$2a$10$'.random64String(22);
-}
-
-
 function loginAlreadyExits($login){
     $base = Database::getConnection();
     $requeteSQL = "SELECT login,actif FROM Utilisateur WHERE login='$login'";
@@ -42,6 +28,26 @@ function mailAlreadyExits($mail){
 		else
 			return -1;
 	}
+}
+
+function afficheTabOption($tab,$info=FALSE){
+    if (!$info) {
+        echo "<select name='choice'  size=".sizeof($tab)." >";
+        foreach ($tab as $key => $value) {
+            echo "<option value='$key'>$key</option>";
+        }
+        echo "</selcet>"
+        echo "<input type='submit'>";
+    }
+    else{
+        echo "<select name='choice'  size=".sizeof($tab)." >";
+        foreach ($tab as $key => $value) {
+            echo "<option value='$key'>$value</option>";
+        }
+        echo "</selcet>"
+        echo "<input type='submit'>";
+    }
+    
 }
 
 ?>
