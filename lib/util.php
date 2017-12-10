@@ -25,7 +25,7 @@ function mailAlreadyExits($mail){
 	else {
 		if (pg_result($resultat,0,"actif"))
 			return 1;
-		else
+		else$nblignes=pg_numrows($resultat);
 			return -1;
 	}
 }
@@ -43,7 +43,25 @@ function afficheTabOption($tab,$info=FALSE){
         }
     }
     echo "</selcet>";
-    
+}
+
+
+
+function filmSearch($wordkey=""){
+    $base = Database::getConnection();
+    $films=array();
+    $requeteSQL = "SELECT DISTINCT f.id_f,f.titre,f.date_sortie,f.duree,s.serie FROM (film f JOIN (distribution d JOIN acteur a ON d.acteur=a.id_a) ON d.film=f.id_f) JOIN serie s ON f.serie=s.id_s WHERE titre='%$wordkey%' OR a.nom='%$wordkey%' OR a.prenom='%$wordkey%' OR s.serie='%$wordkey%'";
+    $resultat = pg_exec($base, $requeteSQL)
+        or die("Erreur SQL !<br />$requeteSQL<br />".pg_last_error());
+    $nblignes=pg_numrows($resultat);
+    for ($i=0; $i < $nblignes ; $i++) {
+        $films[pg_result($resultat,$i,"id_f")]=array(
+            "titre"=>pg_result($resultat,$i,"titre"),
+            "date_sortie"=>pg_result($resultat,$i,"date_sortie"),
+            "duree"=>pg_result($resultat,$i,"duree"),
+            "serie"=>pg_result($resultat,$i,"serie")==NULL?"":pg_result($resultat,$i,"serie")
+        );
+    }
 }
 
 ?>
