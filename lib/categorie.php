@@ -1,5 +1,5 @@
 <?php
-require('util.php');
+require_once('util.php');
 $categorie = array();
 $base = Database::getConnection();
 $query = "SELECT * FROM Categorie ORDER BY label";

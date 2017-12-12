@@ -1,6 +1,7 @@
 <?php
 session_start();
-require("../lib/categorie.php");
+require_once("../lib/categorie.php");
+require_once("../lib/util.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -43,7 +44,7 @@ require("../lib/categorie.php");
         <div class="col-sm-3 sidenav">
             <div class="form-group">
             <div class="input-group">
-                   <form action="../lib/recherche.php" method = POST>
+                   <form action="../lib/afficheFilms.php" method = POST>
                    <input type="text" placeholder="Entrez un film, un acteur ..." name="motcle" class="form-control">
                     <div class="input-group-btn">
                         <button type="submit" class="btn btn-inverse right-rounded">Chercher</button>
@@ -53,11 +54,9 @@ require("../lib/categorie.php");
             </div>
         <p><a href="affiche_films.php">Tous les films disponibles</a></p>
         
-        <form action="films.php" method=POST>
-        	<?php
-        	afficheTabOption($categorie);
-        	?>
-        </form>
+        <?php
+        afficheTabOpt($categorie,"../lib/afficheFilms.php","categorie");
+        ?>
         </div>
         
         
@@ -66,26 +65,9 @@ require("../lib/categorie.php");
             <h3> <center> Tous les films disponibles </center> </h3>
             
             
-            <form action="" method=GET>
-        
-                    <?php /* 
-                        extract($_GET);
-                        $base = pg_connect("host=houplin user= sbenni password = postgres dbname = upheaven") or die('Erreur de connection ! <br/>'. pg_last_error());
-                        
-                        $query = "SELECT id_f, titre FROM film ORDER BY titre";
-                        $resquery = pg_query($base, $query); 
-                        echo("<table>");
-                        while ($line = pg_fetch_assoc($resquery)) {
-                             echo '<tr> <a href="films.php?id_f=', $line['id_f'],'"/>';
-                             echo "</tr>";
-                             echo "</td>";
-                             echo $line['titre'] ;
-                             echo "<br/>";
-                             
-                        }
-                        echo("</table>");*/
-                    ?>
-            </form>
+            <?php
+            afficheTabOpt($films,"film.php","id_f",true);
+            ?>
             <footer class="container-fluid text-center">
                 <p> 2017 - UpHeaven. Tous droits réservés. </p>
             </footer>

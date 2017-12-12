@@ -14,8 +14,9 @@ require("../lib/categorie.php");
 </head>
 <body>
 	<header>
-		<center><img src="../images/logo.png" alt="UpHeaven"></center>
+		<img src="../images/logo.png" alt="UpHeaven">
 	</header>
+
 
     <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -37,61 +38,73 @@ require("../lib/categorie.php");
     </nav>
     
 
+
     <div class="container-fluid text-center">    
     <div class="row content">
  
         <div class="col-sm-3 sidenav">
             <div class="form-group">
             <div class="input-group">
-                   <form action="../lib/afficheFilms.php" method = POST>
-                   <input type="text" placeholder="Entrez un film, un acteur ..." name="motcle" class="form-control">
+                   <form action="../lib/search.php" method = POST>
+                   <input type="text" placeholder="Entrez un film, un acteur, une catégorie ..." name="motcle" class="form-control">
                     <div class="input-group-btn">
                         <button type="submit" class="btn btn-inverse right-rounded">Chercher</button>
                     </div>
                     </form>
                 </div>
             </div>
-        <p><a href="affiche_films.php">Tous les films disponibles</a></p>
-        
+        <p><a href="#">Tous les films disponibles</a></p>
         <form action="films.php" method=POST>
-          <?php
-          afficheTabOption($categorie);
-          ?>
+            <?php
+            afficheTabOption($categorie);
+            ?>
         </form>
         </div>
+        <div class="col-sm-9 text-left"> 
+       
+        <h1 id="titre"> Films à l'affiche </h1>
         
-        
-      <div class="col-sm-9 "> 
-        
-            <h3> <center> Tous les films disponibles </center> </h3>
-            
-            
-            <form action="" method=GET>
-        
-                    <?php 
-                        extract($_GET);
-                        $base = pg_connect("host=houplin user= sbenni password = postgres dbname = upheaven") or die('Erreur de connection ! <br/>'. pg_last_error());
-                        
-                        $query = "SELECT id_f, titre FROM film ORDER BY titre";
-                        $resquery = pg_query($base, $query); 
-                        echo("<table>");
-                        while ($line = pg_fetch_assoc($resquery)) {
-                             echo '<tr> <a href="films.php?id_f=', $line['id_f'],'"/>';
-                             echo "</tr>";
-                             echo "</td>";
-                             echo $line['titre'] ;
-                             echo "<br/>";
-                             
-                        }
-                        echo("</table>");
-                    ?>
-            </form>
-            <footer class="container-fluid text-center">
-                <p> 2017 - UpHeaven. Tous droits réservés. </p>
-            </footer>
-      <div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		    <!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		      <li data-target="#myCarousel" data-slide-to="1"></li>
+		      <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
 
+		    <!-- Wrapper for slides -->
+		    <div class="carousel-inner">
+		      <div class="item active">
+		        <img src="../images/bladerunner.jpeg" alt="Blade Runner 2049">
+		      </div>
 
+		      <div class="item">
+		        <img src="../images/Justice_League.jpg" alt="Justice League">
+		      </div>
+		    
+		      <div class="item">
+		        <img src="../images/lamontahneentrenous.jpg" alt="La montagne entre nous">
+		      </div>
+		    </div>
+
+		    <!-- Left and right controls -->
+		    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		      <span class="glyphicon glyphicon-chevron-left"></span>
+		      <span class="sr-only">Précédent</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right"></span>
+		      <span class="sr-only">Suivant</span>
+		    </a>
+		</div>
+        
+        </div>
+    	</div>
+    </div>
+
+    <footer class="container-fluid text-center">
+    <p>Footer Text</p>
+    </footer>
 
 </body>
 </html>

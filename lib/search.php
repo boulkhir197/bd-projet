@@ -1,10 +1,26 @@
 <?php
 
-require('util.php');
+require_once('util.php');
+extract($_POST);
+extract($_GET);
 
-$res = array(
-	"length" => 0,
-	"result" => array()
-);
+try{
+    $tab = filmSearch($motcle);
+
+    $res = array(
+        "status" => "ok",
+        "args" => array("titre","date_sortie","duree","serie"),
+        "result" => $tab
+    );
+} catch(Exception $e){
+    $res = array(
+        "status" => "error",
+        "args" => array("titre","date_sortie","duree","serie"),
+        "message" => null
+    );
+}
+header('Content-Type: application/json');
+echo json_encode($res);
+
 
 ?>

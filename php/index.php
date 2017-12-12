@@ -1,6 +1,6 @@
 <?php
 session_start();
-require("../lib/categorie.php");
+require_once("../lib/categorie.php");
 ?>
 <!DOCTYPE html>
 <html>
@@ -45,7 +45,7 @@ require("../lib/categorie.php");
         <div class="col-sm-3 sidenav">
             <div class="form-group">
             <div class="input-group">
-                   <form action="../lib/recherche.php" method = POST>
+                   <form action="../lib/afficheFilms.php" method = POST>
                    <input type="text" placeholder="Entrez un film, un acteur, une catégorie ..." name="motcle" class="form-control">
                     <div class="input-group-btn">
                         <button type="submit" class="btn btn-inverse right-rounded">Chercher</button>
@@ -56,7 +56,7 @@ require("../lib/categorie.php");
         <p><a href="#">Tous les films disponibles</a></p>
         <form action="films.php" method=POST>
             <?php
-            afficheTabOption($categorie);
+            afficheTabOpt($categorie,"../lib/afficheFilms.php");
             ?>
         </form>
         </div>

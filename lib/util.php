@@ -25,32 +25,35 @@ function mailAlreadyExits($mail){
 	else {
 		if (pg_result($resultat,0,"actif"))
 			return 1;
-		else$nblignes=pg_numrows($resultat);
+		else
 			return -1;
 	}
 }
 
-function afficheTabOption($tab,$info=FALSE){
-    echo "<select onclick='this.form.submit()' style='width:100%;border:none;text-align:center;' name='choice'  size=".sizeof($tab)." >";
+function afficheTabOpt($tab,$url,$nom="choice",$info=FALSE){
     if (!$info) {
         foreach ($tab as $key => $value) {
-            echo "<option value='$key'>$key</option>";
+            echo "<a href=".$url."?".$nom."=".$key."'>$key</a><br/>";
         }
     }
     else{
         foreach ($tab as $key => $value) {
-            echo "<option value='$key'>$value</option>";
+            echo "<a href='$url?choice=$key'>$value</a><br/>";
         }
     }
-    echo "</selcet>";
 }
-
 
 
 function filmSearch($wordkey=""){
     $base = Database::getConnection();
     $films=array();
-    $requeteSQL = "SELECT DISTINCT f.id_f,f.titre,f.date_sortie,f.duree,s.serie FROM (film f JOIN (distribution d JOIN acteur a ON d.acteur=a.id_a) ON d.film=f.id_f) JOIN serie s ON f.serie=s.id_s WHERE titre='%$wordkey%' OR a.nom='%$wordkey%' OR a.prenom='%$wordkey%' OR s.serie='%$wordkey%'";
+    $wordkey = strtoupper($wordkey);
+    $requeteSQL = "SELECT DISTINCT f.id_f,f.titre,f.date_sortie,f.duree,f.serie AS id_s,s.nom AS serie 
+                    FROM (film f JOIN (distribution d JOIN acteur a ON d.acteur=a.id_a) ON d.film=f.id_f)
+                    FULL JOIN serie s ON f.serie=s.id_s
+                    WHERE UPPER(titre) LIKE '%$wordkey%' OR UPPER(a.nom) LIKE '%$wordkey%' OR UPPER(a.prenom)
+                    LIKE '%$wordkey%' OR UPPER(s.nom) LIKE '%$wordkey%' OR UPPER(f.resume) LIKE '%$wordkey%' OR UPPER(f.categorie)
+                    LIKE '%$wordkey%';";
     $resultat = pg_exec($base, $requeteSQL)
         or die("Erreur SQL !<br />$requeteSQL<br />".pg_last_error());
     $nblignes=pg_numrows($resultat);
@@ -62,6 +65,7 @@ function filmSearch($wordkey=""){
             "serie"=>pg_result($resultat,$i,"serie")==NULL?"":pg_result($resultat,$i,"serie")
         );
     }
+    return $films;
 }
 
 ?>
