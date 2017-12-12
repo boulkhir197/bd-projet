@@ -38,7 +38,7 @@ function afficheTabOpt($tab,$url,$nom="choice",$info=FALSE){
     }
     else{
         foreach ($tab as $key => $value) {
-            echo "<a href='$url?choice=$key'>$value</a><br/>";
+            echo "<a href=$url?choice=$key>$value</a><br/>";
         }
     }
 }
